@@ -1,0 +1,53 @@
+.container {
+  background-color: #bee4f1;
+  height: 475px;
+  width: 638px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  text-align: center;
+  gap: 10px;
+}
+.Header {
+  background-color: #02b9ab;
+  grid-row: 1/2;
+  grid-column: 1/-1;
+}
+.Aside {
+  background-color: #6bd46b;
+  grid-row: 2/7;
+  grid-column: 1/3;
+}
+
+.Footer {
+  background-color: #02b9ab;
+  grid-row: 6/7;
+  grid-column: 1/-1;
+}
+.Artical {
+  background-color: #f3aa4a;
+  grid-column: 3/-1;
+  grid-row: 2/7;
+
+  /* align-self: center; */
+}
+.images {
+  display: flex;
+  height: 250px;
+  width: 450px;
+  align-items: flex-end; /* move 3 boxes to end flex*/
+  /* justify-content: center; */
+
+  justify-content: space-around;
+  margin: 40px;
+}
+.user {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  align-content: center; /* center; to mver word inside boxes */
+}
+/* .t3-3 div {
+  width: 400px;
+  justify-content: center;
+} */
